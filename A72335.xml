@@ -1,0 +1,897 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A newe A,B,C paraphrasicallye applied, as the state of the worlde doeth at this daye require</title>
+            <author>Huggarde, Miles.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1557</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 24 KB of XML-encoded text transcribed from 9 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A72335</idno>
+            <idno type="STC">STC 13559.5</idno>
+            <idno type="STC">ESTC S124866</idno>
+            <idno type="EEBO-CITATION">99900457</idno>
+            <idno type="PROQUEST">99900457</idno>
+            <idno type="VID">173232</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A72335)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 173232)</note>
+            <note>Images scanned from microfilm: (Early English books, 1475-1640 ; 2024:13)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A newe A,B,C paraphrasicallye applied, as the state of the worlde doeth at this daye require</title>
+                  <author>Huggarde, Miles.</author>
+               </titleStmt>
+               <extent>[16] p.   </extent>
+               <publicationStmt>
+                  <publisher>by Robert Caly] Mense marcii,</publisher>
+                  <pubPlace>[London :</pubPlace>
+                  <date>1557.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Printer's name and place of publication from STC (2nd ed.).</note>
+                  <note>At foot of title page: Cum priuilegio.</note>
+                  <note>Signatures: A-B⁴.</note>
+                  <note>The last leaf is blank.</note>
+                  <note>Reproduction of original in the Lambeth Palace Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Conduct of life --  Poetry --  Early works to 1800.</term>
+               <term>Devotional literature --  Poetry --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Susie Lorand</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Susie Lorand</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:173232:1" rendition="simple:additions"/>
+            <p>¶ A newe A B C paraphraſti<g ref="char:EOLhyphen"/>callye applied, as the ſtate of the worlde doeth at this daye re<g ref="char:EOLhyphen"/>quire.</p>
+            <p>Menſe marcii. 1557.</p>
+            <p>
+               <hi>Cum priuilegio.</hi>
+            </p>
+         </div>
+      </front>
+      <body>
+         <div type="poems">
+            <pb facs="tcp:173232:2"/>
+            <l>
+               <seg rend="decorInit">W</seg>Hen children firſt begin to learne,</l>
+            <l>Their letters for to knowe:</l>
+            <l>Right their difference to diſcerne</l>
+            <l>Thei lerne their Chriſt croſſe row.</l>
+            <l>Chriſt his croſſe be my ſpeede,</l>
+            <l>ſaye they,</l>
+            <l>And good ſainet Nycholas,</l>
+            <l>In our childhode this did we pray,</l>
+            <l>For ſo the cuſtome was.</l>
+            <l>Then in learning we did procede,</l>
+            <l>More knowledge to attaine,</l>
+            <l>Which knowledge had, we fell in dede</l>
+            <l>To folowe fancies vayne.</l>
+            <l>For the firſt thing that then learnd we,</l>
+            <l>Was firſt our lorde to knowe,</l>
+            <l>Thre perſons in the trinitie,</l>
+            <l>Whiche faith we late fell fro,</l>
+            <l>Then learned we as Chriſt had taught,</l>
+            <l>For what, and howe to praye:</l>
+            <l>But vice in vs ſuch wit hath wraught,</l>
+            <l>That fewe can it well ſaye:</l>
+            <l>The profe wherof doth here enſue,</l>
+            <l>Let men them ſelues be iudge,</l>
+            <l>Wherein yf I do tell them true,</l>
+            <l>At it let them not grudge.</l>
+            <l>But now, or I do further paſſe,</l>
+            <l>Leſt ſome woulde this diſdayne,</l>
+            <l>For naminge here ſainct Nicholas,</l>
+            <l>My meaning is this playne.</l>
+            <l>Chriſt his croſſe all our children praye,</l>
+            <l>In learning them to ſpede:</l>
+            <l>So ſhoulde all we nowe at this daye,</l>
+            <pb facs="tcp:173232:2"/>
+            <l>In like order procede.</l>
+            <l>We haue forgot our croſſe to take,</l>
+            <l>And after Chriſt to runne,</l>
+            <l>Therfore all ſlouth we muſt forſake,</l>
+            <l>And turne where we begonne:</l>
+            <l>Then ſhall his croſſe truely vs ſpede,</l>
+            <l>More vertue to attayne,</l>
+            <l>And grace in vs ſuch loue wyll brede,</l>
+            <l>Our croſſe ſhall vs not payne.</l>
+            <l>The holy man ſainct Nycholas</l>
+            <l>Our children call for ayde:</l>
+            <l>I thinke moſt men knoweth not the caſe</l>
+            <l>And why it was ſo ſayde.</l>
+            <l>Sainct Nicholas a childe beinge</l>
+            <l>His croſſe right ſoone he bore,</l>
+            <l>For his body with muche faſtinge</l>
+            <l>He puniſhed full ſore:</l>
+            <l>To teache both children and old men</l>
+            <l>Their croſſe to take lykewiſe,</l>
+            <l>And after Chriſt to beare it then</l>
+            <l>With often exerciſe.</l>
+            <l>And after this, his childhode paſt,</l>
+            <l>A biſhop made was he,</l>
+            <l>All worldlynes from him he caſt,</l>
+            <l>And walkte in charitie,</l>
+            <l>Wherof he was ſuche a myrrour,</l>
+            <l>That happie were we all,</l>
+            <l>Yf god by grace, gaue biſhoppes power</l>
+            <l>To the lyke life to fall,</l>
+            <l>And we to walke in the lyke trade,</l>
+            <l>All ſortes bothe olde and yonge,</l>
+            <l>Then mought we hope god woulde vs ayde</l>
+            <pb facs="tcp:173232:3"/>
+            <l>And ſtyll by grace vpholde.</l>
+            <l>But now alas my heart both quake,</l>
+            <l>To ſee our myſerie,</l>
+            <l>My croſſe row now nedes muſt I make,</l>
+            <l>To my mynde coutrarye.</l>
+            <l>The croſſe of Chriſt ſome beares alas,</l>
+            <l>Againſt theyr wylles we ſee:</l>
+            <l>Goue hence is good ſainct Nicholas</l>
+            <l>And eke his charitie.</l>
+            <l>In this life he did not onely,</l>
+            <l>His bodye muche chaſtice</l>
+            <l>But with almes muche pouertie,</l>
+            <l>He did releue lykewyſe,</l>
+            <l>As in his life it doth appeare,</l>
+            <l>Which is myne authour playne,</l>
+            <l>Wherby to you I make it cleare,</l>
+            <l>His dedes I do not fayne.</l>
+            <l>Nowe for this cauſe this ſainct I name,</l>
+            <l>To thende that we might all,</l>
+            <l>Perceyue the cauſe as I do ayme,</l>
+            <l>That we his ayde dyd call.</l>
+            <l>Therfore ſith the worlde at this daye,</l>
+            <l>Is tourned vp ſyde downe,</l>
+            <l>This A B C here tourne I maye,</l>
+            <l>In ſome part wronge to ſowne,</l>
+            <l>But now my wyll whole to expreſſe,</l>
+            <l>My wit can not attayne,</l>
+            <l>Therein I finde ſuche feblenes,</l>
+            <l>It paſſeth my weake brayne,</l>
+            <l>Therfore Chriſtes croſſe now be my ſpede,</l>
+            <l>For here I wyll beginne,</l>
+            <l>As cauſe doth moue me to procede,</l>
+            <l>Thus do I enter in.</l>
+            <div type="abecedarian_poem">
+               <pb facs="tcp:173232:3"/>
+               <lg>
+                  <l>A Hath fyrſt place, whiche place I muſte</l>
+                  <l>As cauſe of wo to ſtande,</l>
+                  <l>Auarice and eke fleſhely luſt,</l>
+                  <l>Alone diſtroyed this lande.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>B</hi> Baren are we of bleſſednes</l>
+                  <l>Blinded with worldly care,</l>
+                  <l>Boldnes in vice we ſe expreſſe,</l>
+                  <l>Babes can the trueth declare.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>C</hi> Couitouſnes with crafty dedes</l>
+                  <l>Can ſcarſly hence be rydde:</l>
+                  <l>Conſpiracie muche canker bredes</l>
+                  <l>Couertly in heartes hydde.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>D</hi> Drede of God and eke his iudgement</l>
+                  <l>Dryuen haue we from our heartes,</l>
+                  <l>Dearth without cauſe ſome doth inuent</l>
+                  <l>Diuels can playe no worfe partes.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>E</hi> Enuy hath entred in ſuche wyſe</l>
+                  <l>Euyll men thereby we ſee</l>
+                  <l>Enuiouſlye good men diſpiſe</l>
+                  <l>Euen of mere enmite.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>F</hi> Fained falſhode with flatery</l>
+                  <l>Faithles folke haue founde,</l>
+                  <l>Faininge a face fraudelently</l>
+                  <l>Frendſhip for to confounde.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>G</hi> Gredines great for graceles gayne</l>
+                  <l>Growne is in ſuche degree.</l>
+                  <pb facs="tcp:173232:4"/>
+                  <l>Grounde of our griefe which doth vs payne</l>
+                  <l>Graunted this nedes muſt be.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>H</hi> Horably do they our lorde offend</l>
+                  <l>His poore folke here to ſterue,</l>
+                  <l>Hauing wherwith as god ſhall ſend,</l>
+                  <l>Honeſtly them to ſerue.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>I</hi> Iniquitie ſo ouerfloweth,</l>
+                  <l>I neuer ſawe the lyke,</l>
+                  <l>Ingratitude ſo her ſelfe ſhoweth.</l>
+                  <l>Iuſtly God muſt vs ſtryke.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>K</hi> Knowledge of God and our eſtate,</l>
+                  <l>Kinges to obey eche one,</l>
+                  <l>Kunninge our heartes ſo doth inflate</l>
+                  <l>Knockinge for grace is gone.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>L</hi> Libertie lept ouer this lande,</l>
+                  <l>Louſly at his owne will,</l>
+                  <l>Letchery to breake wedlockes bande</l>
+                  <l>Likewiſe doth luſte fulfyll.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>M</hi> Madnes of mynde money to get,</l>
+                  <l>Makes ſome god to forſake:</l>
+                  <l>Money iuſtice and law can let,</l>
+                  <l>Much miſchiefe it doth make.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>N</hi> Nigardes nedeles by nigardie</l>
+                  <l>Neuer doth any good,</l>
+                  <l>Not he him ſelfe hath ioye thereby</l>
+                  <l>Nor one of the like broode.</l>
+               </lg>
+               <pb facs="tcp:173232:4"/>
+               <lg>
+                  <l>
+                     <hi>O</hi> Odible ſinne ſuche doth commit,</l>
+                  <l>Offering to God to make</l>
+                  <l>Of goodes got by craftie wit,</l>
+                  <l>Or bribes falſly to take.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>P</hi> Pennury pincheth poore men ſore,</l>
+                  <l>Percing with hungers griefe,</l>
+                  <l>Pride yet did neuer raigne here more,</l>
+                  <l>Practiſe doth make dewe priefe.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Q</hi> Quickely if we do not amende</l>
+                  <l>Quenching our ſinnes by grace,</l>
+                  <l>Queſtionles God great plagues will ſende</l>
+                  <l>Quietnes to deface.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>R</hi> Riches from plagues will no man ſaue,</l>
+                  <l>Regarde them here who will,</l>
+                  <l>Rebellious heartes God will depraue</l>
+                  <l>Reſt they neuer ſo ſtill.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>S</hi> Sweare and forſweare ſome do not paſſe</l>
+                  <l>Surenes of trueth is gone,</l>
+                  <l>Shame hath got on a face of braſſe</l>
+                  <l>Sinne thei thinke it is none.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>T</hi> Traiterous tonges telling tales vntrue,</l>
+                  <l>Tumultes to make therby,</l>
+                  <l>Truſt this thei may if thei will vewe</l>
+                  <l>Time treaſon out will trie.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>V</hi> Vſurie is ſo vſuall</l>
+                  <l>Vertue thei woulde it make,</l>
+                  <pb facs="tcp:173232:5"/>
+                  <l>Vile vice it is, as know they ſhall,</l>
+                  <l>Vengeaunce when God wyll take.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>X</hi> Extorſion is purchaſe right,</l>
+                  <l>Experience hath taught,</l>
+                  <l>Expelled is mercie by might</l>
+                  <l>Extremitie ſo wraughte.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Y</hi> Yockt are we vnto miſerie,</l>
+                  <l>Yet ſinne we without feare,</l>
+                  <l>Yelde we will not to charitie,</l>
+                  <l>Yonge nor olde, any where.</l>
+               </lg>
+               <lg>
+                  <l>
+                     <hi>Z</hi> Zache wronges did ful recompence,</l>
+                  <l>Zele had he right therfore.</l>
+                  <l>Zacharies doubtfull diffidence,</l>
+                  <l>We rather folowe more.</l>
+               </lg>
+               <lg>
+                  <l>&amp; And if God will puniſhe for ſinne,</l>
+                  <l>And vengeaunce on it take,</l>
+                  <l>And if heauen we intende to winne.</l>
+                  <l>We muſt our ſinnes forſake.</l>
+               </lg>
+               <lg>
+                  <l>ꝯ Confeſſe our faultes therfore muſt we,</l>
+                  <l>Conſideringe our euill eſtate</l>
+                  <l>Conſtrained by goddes plagues we be,</l>
+                  <l>Conuert then not to late.</l>
+               </lg>
+               <lg>
+                  <l>Tittle though it no letter be,</l>
+                  <l>In wordes may trueth deface</l>
+                  <l>A foole ſet in authoritie</l>
+                  <l>Doth iuſtice ofte vnplace.</l>
+               </lg>
+               <pb facs="tcp:173232:5"/>
+               <lg>
+                  <l>By prayer to God nowe let vs call,</l>
+                  <l>To procure grace, and then</l>
+                  <l>After this life, haue heauen we ſhall</l>
+                  <l>To this ſaye we Amen.</l>
+               </lg>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>¶ Our vnbleſſinge.</head>
+               <lg>
+                  <l>In nomine of whome do we our workes beginne:</l>
+                  <l>
+                     <hi>Patris,</hi> nay God knoweth to much we do ſinne,</l>
+                  <l>
+                     <hi>Et filij</hi> his wiſedome ſo ſmall we eſteme,</l>
+                  <l>
+                     <hi>Et ſpiritus ſancti,</hi> his grace eke ſo litle deme,</l>
+                  <l>
+                     <hi>Amen,</hi> we can not ſaye till we amende, and then</l>
+                  <l>Being turned, enioying grace, then may we ſaye Amen.</l>
+               </lg>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>
+                  <hi>The</hi> Pater noſter.</head>
+               <l>
+                  <hi>
+                     <seg rend="decorInit">P</seg>Ater noſter,</hi> to God dayly we do call,</l>
+               <l>But lord, <hi>qui es in coelis,</hi> alas fro the we do fall:</l>
+               <l>
+                  <hi>Sanctificetur,</hi> If all oure li<g ref="char:EOLhyphen"/>uinges were,</l>
+               <l>
+                  <hi>Nomen tuum,</hi> in more honour ſhould appeare.</l>
+               <l>
+                  <hi>Adueniat,</hi> ſay we, but what muſt it be,</l>
+               <l>
+                  <hi>Regnum tuum,</hi> nay lorde fro that farre be we:</l>
+               <l>
+                  <hi>Fiat,</hi> as we luſt in our couetouſnes,</l>
+               <l>
+                  <hi>Voluntas tua,</hi> therby to tranſgreſſe,</l>
+               <l>
+                  <hi>Sicut</hi> fro this worlde we ſhould neuer go,</l>
+               <l>Our hartes is on earth, and not in <hi>caelo:</hi>
+               </l>
+               <l>
+                  <hi>Et in terra,</hi> couetous hartes are ſo ſet,</l>
+               <l>That <hi>panem noſtrum</hi> ſcarſly we can get,</l>
+               <l>
+                  <hi>Quotidianum,</hi> great hunger poore folke ſuſtaine,</l>
+               <pb facs="tcp:173232:6"/>
+               <l>
+                  <hi>Da nobis hodie</hi> they crye, but it is in vaine.</l>
+               <l>
+                  <hi>Et dimitte nobis,</hi> our ſynnes howe can we ſay,</l>
+               <l>When <hi>debita noſtra</hi> we force not to pay.</l>
+               <l>
+                  <hi>Sicut et nos,</hi> deſerue lorde rewarde not vs,</l>
+               <l>But forgeue vs our ſinnes more then <hi>dimittimus,</hi>
+               </l>
+               <l>
+                  <hi>Debitoribus noſtris,</hi> graunt vs grace to forgeue,</l>
+               <l>
+                  <hi>Et ne nos inducas</hi> lorde as our ſelues wold lyue,</l>
+               <l>
+                  <hi>In tentationem</hi> moſt greuouſly we fall,</l>
+               <l>
+                  <hi>Sed libera nos</hi> by grace, and then we ſhall,</l>
+               <l>
+                  <hi>A malo,</hi> be ſure defended to be.</l>
+               <l>That God wyll heare our prayers, <hi>amen</hi> ſay we.</l>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>
+                  <hi>The</hi> aue Maria.</head>
+               <l>
+                  <hi>AVe</hi> bleſſed lorde, to the we may ſay,</l>
+               <l>Praiſyng thy goodnes in our <hi>Maria:</hi>
+               </l>
+               <l>Who <hi>gratia plena,</hi> did ſo to vs appeare,</l>
+               <l>That <hi>dominus tecum</hi> to her we may ſay cleare,</l>
+               <l>
+                  <hi>Benedictatu</hi> all men may thynke plaine,</l>
+               <l>
+                  <hi>In mulieribus,</hi> that euer here did raigne,</l>
+               <l>
+                  <hi>Et benedictus</hi> muche more thou ſhalt be,</l>
+               <l>If <hi>fructus ventris tui</hi> borne we may ſee,</l>
+               <l>
+                  <hi>Ieſus Chriſtus,</hi> graunt this we the pray:</l>
+               <l>
+                  <hi>Amen</hi> all faythfull chriſten heartes wyll ſay.</l>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>The Crede.</head>
+               <l>
+                  <hi>CRedo</hi> that plagues from vs ſhall not paſſe,</l>
+               <l>Til couetous me<g ref="char:cmbAbbrStroke">̄</g> 
+                  <hi>in deu<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> doth ſet their ſolaſſe:</l>
+               <l>
+                  <hi>Patre<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> they call God as they his childre<g ref="char:cmbAbbrStroke">̄</g> were,</l>
+               <l>But <hi>omnipotentem</hi> that they graunt not cleare,</l>
+               <l>
+                  <hi>Creatore<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> of all thinges for man they be co<g ref="char:cmbAbbrStroke">̄</g>feſſors,</l>
+               <l>But <hi>coeli et terrae</hi> they would here be poſſeſſors.</l>
+               <l>
+                  <hi>Et in Ieſum Chriſtum</hi> their fayth is they cry off,</l>
+               <l>But echone <hi>filium eius</hi> on yearth would ſet aloft,</l>
+               <pb facs="tcp:173232:6"/>
+               <l>
+                  <hi>Vnicum</hi> on auarice they ſo ſet their delite,</l>
+               <l>That <hi>dominum noſtru<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> fro the<g ref="char:cmbAbbrStroke">̄</g> they baniſhe quite:</l>
+               <l>
+                  <hi>Qui conceptus eſt,</hi> of the fleſh that they folowe ſo,</l>
+               <l>They regarde not the workes <hi>de ſpiritu ſancto,</hi>
+               </l>
+               <l>
+                  <hi>Natus</hi> was Chriſt onely for our ſake,</l>
+               <l>And <hi>ex Maria virgine</hi> our nature did take.</l>
+               <l>
+                  <hi>Paſſus</hi> doth Chriſtes me<g ref="char:cmbAbbrStroke">̄</g>bres almoſt aſmuche wo,</l>
+               <l>As Chriſt did him ſelfe <hi>ſub pontio Pilato:</hi>
+               </l>
+               <l>
+                  <hi>Crucifixus</hi> was Chriſt of the Iewes rigorous,</l>
+               <l>So do they for honger ſtryke many <hi>mortuus:</hi>
+               </l>
+               <l>
+                  <hi>Et ſepultus</hi> is charitie fro many men ſo lowe,</l>
+               <l>That <hi>diſſe<g ref="char:cmbAbbrStroke">̄</g>ditad inferna,</hi> here he makes ſmal ſhow</l>
+               <l>
+                  <hi>Tertia die,</hi> nay the third yere god graunt this,</l>
+               <l>We may ſay that charitie <hi>reſurrexit a mortuis.</hi>
+               </l>
+               <l>
+                  <hi>Aſcendit</hi> vp is Chriſt to thende that we,</l>
+               <l>
+                  <hi>Ad coelos</hi> might come by faithful charitie,</l>
+               <l>
+                  <hi>Sedet ad dexteram</hi> in the ſubſtaunce deuine,</l>
+               <l>
+                  <hi>Patris omnipotentis</hi> as faith doth define,</l>
+               <l>
+                  <hi>Inde</hi> certainly when thinke leaſt we ſhall,</l>
+               <l>
+                  <hi>Venturus eſt</hi> in glorie with his angels all,</l>
+               <l>
+                  <hi>Iudicare</hi> vpon earth all people in all partes,</l>
+               <l>
+                  <hi>Viuos &amp; mortuos</hi> both after their deſertes.</l>
+               <l>
+                  <hi>Credo</hi> ſome thinkes that day wyl neuer be</l>
+               <l>
+                  <hi>In ſpiritum ſanctum</hi> very few ſettes their felicitie.</l>
+               <l>
+                  <hi>Sanctam eccleſiam</hi> while we do diſpiſe,</l>
+               <l>
+                  <hi>Catholicam</hi> charitie ſhal neuer ariſe.</l>
+               <l>
+                  <hi>Sanctoru<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> we thoughte great ſcorne to be taught,</l>
+               <l>
+                  <hi>Communionem</hi> tyl they in vutruly brought.</l>
+               <l>
+                  <hi>Remiſſionem</hi> I pray God graunt vnto them all</l>
+               <l>
+                  <hi>Peccatorum</hi> wherein God ſuffereth them to fall,</l>
+               <l>
+                  <hi>Carnis</hi> they did, and doth take ſuch carefulnes,</l>
+               <l>
+                  <hi>Reſurrectionem</hi> fro<g ref="char:cmbAbbrStroke">̄</g> ſin they thinke nothing leſſe,</l>
+               <pb facs="tcp:173232:7"/>
+               <l>
+                  <hi>Et vitam</hi> which Chriſt bought for them ſo dere,</l>
+               <l>They regarde not, <hi>eterna<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> they hope to lyue here,</l>
+               <l>Amen, god forbid I ſhoulde ſay to this,</l>
+               <l>Yet I feare couetouſnes wyll byde where it is.</l>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>¶ The pſalme of <hi>venite</hi> wherein god calleth vs from couetouſnes as I applie it.</head>
+               <l>
+                  <hi>VEnite</hi> worldly people, and with one minde</l>
+               <l>
+                  <hi>Exultemus</hi> in vertue as god hath aſſignde</l>
+               <l>
+                  <hi>in domino</hi> we ſhould truſt, and not in richeſſe</l>
+               <l>
+                  <hi>iubilemus</hi> for his giftes whiche we do poſſeſſe,</l>
+               <l>
+                  <hi>Deo</hi> lift we our heartes from all vanitie,</l>
+               <l>
+                  <hi>Salutari noſtro</hi> eke moſt louing let vs be,</l>
+               <l>
+                  <hi>Praeoccupemus</hi> to him then ſhal we be ſure,</l>
+               <l>
+                  <hi>Faciem eius</hi> to beholde for euer to endure</l>
+               <l>
+                  <hi>in confeſsione</hi> of his glorious maieſtie,</l>
+               <l>
+                  <hi>Et in Pſalmis</hi> his name for euer magnifie,</l>
+               <l>
+                  <hi>iubilemus</hi> and ſet we all vice a ſyde,</l>
+               <l>
+                  <hi>ei</hi> we ſhould runne, but the fleſhe ſaith abyde.</l>
+               <l>
+                  <hi>Quonia<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> worldly riches our heartes we ſet vpon,</l>
+               <l>
+                  <hi>deus magnus</hi> we make of that wicked mammon,</l>
+               <l>
+                  <hi>dominus,</hi> of all ſinnes hateth moſt that kynde,</l>
+               <l>
+                  <hi>et rex magnus</hi> in puniſhement thei ſhall him ſure fynde,</l>
+               <l>
+                  <hi>ſuper</hi> all his creatures honorde he wyl be,</l>
+               <l>
+                  <hi>omnes deos</hi> beſide him are but vanitie.</l>
+               <l>
+                  <hi>Quonia<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> this couetouſnes god doth threate ſore,</l>
+               <l>
+                  <hi>non repellet</hi> doth man tho, one whit the more,</l>
+               <l>
+                  <hi>dominus</hi> graunt his grace to turne couetouſe me<g ref="char:cmbAbbrStroke">̄</g>
+               </l>
+               <l>
+                  <hi>plebem ſuam</hi> for hunger ſo ſterue ſhall not then,</l>
+               <l>
+                  <hi>Quia</hi> though wicked men wil be wicked ſtyll,</l>
+               <l>
+                  <hi>in manu eius</hi> it is to amende all at his wyll,</l>
+               <l>
+                  <hi>ſunt omnes</hi> ſo ſet not on the ſoules health</l>
+               <l>
+                  <hi>fines terrae</hi> they ſeke out for their worldly welth.</l>
+               <pb facs="tcp:173232:7"/>
+               <l>
+                  <hi>et altitudines</hi> yf they might here attayne,</l>
+               <l>
+                  <hi>montium</hi> of golde to them ſelues ſhoulde ragne</l>
+               <l>
+                  <hi>ipſe</hi> yet our lorde aboue raigninge I do meane,</l>
+               <l>
+                  <hi>conſpicit</hi> their madnes &amp; wil confounde it clean,</l>
+               <l>
+                  <hi>Quonia<g ref="char:cmbAbbrStroke">̄</g> ipſius</hi> is the earth &amp; al wordly goodes,</l>
+               <l>His <hi>eſt mare</hi> and al other water fluddes,</l>
+               <l>
+                  <hi>et ipſe fecit illud:</hi> for the loue of mankyn<gap reason="illegible" resp="#UOM" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>,</l>
+               <l>
+                  <hi>et aridam</hi> for all mens welthes he alſo aſſignde,</l>
+               <l>
+                  <hi>fu<g ref="char:cmbAbbrStroke">̄</g>daueru<g ref="char:cmbAbbrStroke">̄</g>t</hi> tho, our como<g ref="char:cmbAbbrStroke">̄</g> welth in a wretched caſe</l>
+               <l>
+                  <hi>in manus eius</hi> the euil ma<g ref="char:cmbAbbrStroke">̄</g> wold welth alon enbraſe</l>
+               <l>
+                  <hi>venite</hi> fro<g ref="char:cmbAbbrStroke">̄</g> couetouſnes our lord againe calleth vs</l>
+               <l>
+                  <hi>adoremus</hi> his maieſtie, and fly workes vicious.</l>
+               <l>
+                  <hi>et procidamus</hi> with repentaunce trew,</l>
+               <l>
+                  <hi>ante deum</hi> then, our ſinnes we ſhal not rew</l>
+               <l>
+                  <hi>ploremus</hi> it is time, expirience hath vs taught</l>
+               <l>
+                  <hi>cora<g ref="char:cmbAbbrStroke">̄</g> dn<g ref="char:cmbAbbrStroke">̄</g>o</hi> was neuer more wickednes wrought.</l>
+               <l>
+                  <hi>Quia fecit nos</hi> not in ſinful lyfe to lyue,</l>
+               <l>
+                  <hi>Quia ipſe eſt dn<g ref="char:cmbAbbrStroke">̄</g>s</hi> whihch is life for vs did giue:</l>
+               <l>
+                  <hi>deus noſter</hi> by grace and creation is he,</l>
+               <l>
+                  <hi>nos autem populus eius</hi> alas in meane degree</l>
+               <l>
+                  <hi>et oues</hi> in few mens handes ſtyll do remayne,</l>
+               <l>
+                  <hi>paſcui eius</hi> poore men ſmal pleaſure ſhal attayne.</l>
+               <l>
+                  <hi>Hodie</hi> and many God, on vs doth call</l>
+               <l>
+                  <hi>ſi vocem</hi> can perſe your eares, to more charitie fal</l>
+               <l>
+                  <hi>eius</hi> whoſe voice but gods hath called you fro<g ref="char:cmbAbbrStroke">̄</g> ſyn</l>
+               <l>
+                  <hi>audieritis,</hi> but to amend when wyll ye begynne?</l>
+               <l>
+                  <hi>nolite obdurare</hi> as ye haue done many a daye</l>
+               <l>
+                  <hi>corda veſtra</hi> againſt god, running fro<g ref="char:cmbAbbrStroke">̄</g> him aſtraye</l>
+               <l>
+                  <hi>ſicut</hi> ye forced not for gods anger one whit</l>
+               <l>
+                  <hi>in exacerbatione</hi> o man beware of it.</l>
+               <l>
+                  <hi>ſecundum</hi> thou art warned in time to amende</l>
+               <l>
+                  <hi>diem</hi> of deth y<hi rend="sup">u</hi> knoweſt not how ſone god wil ſe<g ref="char:cmbAbbrStroke">̄</g>d</l>
+               <pb facs="tcp:173232:8"/>
+               <l>
+                  <hi>Tentationis</hi> towardes god man be not to bolde,</l>
+               <l>
+                  <hi>In deſerto</hi> as ye knowe the Iewes were of old.</l>
+               <l>
+                  <hi>Vbi tentauerunt me,</hi> ſaith god, by your infidelitie,</l>
+               <l>
+                  <hi>Patres veſtri</hi> were diſpiſed &amp; that diſpleaſed me,</l>
+               <l>
+                  <hi>Probauerunt &amp; viderunt</hi> as farre as was meete,</l>
+               <l>
+                  <hi>Opera mea</hi> yet they denied as men vndiſcrete,</l>
+               <l>
+                  <hi>Quadraginta annis</hi> with xv. hu<g ref="char:cmbAbbrStroke">̄</g>dreth &amp; more,</l>
+               <l>
+                  <hi>Proximus fui</hi> to vs (he ſaieth) as I neuer was be<g ref="char:EOLhyphen"/>fore,</l>
+               <l>
+                  <hi>Generationi huic</hi> my church, to whiche I promyſt playne,</l>
+               <l>
+                  <hi>Et dixiſe<g ref="char:cmbAbbrStroke">̄</g>per</hi> eke, I wold w<hi rend="sup">t</hi> it remaine.</l>
+               <l>
+                  <hi>Hi errant corde</hi> where I to the Iewes did ſaye,</l>
+               <l>
+                  <hi>Ipſi vero</hi> did not erre like ſome at this day,</l>
+               <l>
+                  <hi>No<g ref="char:cmbAbbrStroke">̄</g> cognoueru<g ref="char:cmbAbbrStroke">̄</g>t</hi> all thinges as I ſhewde to you,</l>
+               <l>
+                  <hi>Vias meas</hi> to be like yours, yet ſome of you auow</l>
+               <l>
+                  <hi>Quibus iuraui</hi> that for this infidelitie,</l>
+               <l>
+                  <hi>In ira mea</hi> reuenged of it I wyll be</l>
+               <l>
+                  <hi>Non introibunt</hi> with that corrupt iudgement</l>
+               <l>
+                  <hi>In requiem meam</hi> vnles they repent.</l>
+               <l>
+                  <hi>Gloria</hi> geue we with one heart and minde,</l>
+               <l>
+                  <hi>Patri</hi> who to vs moſt louing lorde we fynde</l>
+               <l>
+                  <hi>Et filio</hi> which here our baſe nature did take</l>
+               <l>
+                  <hi>Et ſpiritui ſancto</hi> proceding fro the<g ref="char:cmbAbbrStroke">̄</g> for mans ſake.</l>
+               <l>
+                  <hi>Sicut erat</hi> before that al worldes were wrought,</l>
+               <l>
+                  <hi>In principio</hi> which paſſeth all mens thought,</l>
+               <l>
+                  <hi>Et nunc</hi> ſerue we him as doth become vs beſt,</l>
+               <l>
+                  <hi>Et ſemper</hi> let our faith by our dedes be expreſt,</l>
+               <l>
+                  <hi>In ſecula ſeculoru<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> then truly raigne we ſhall,</l>
+               <l>With god in the ioyes which are perpetual. <hi>Ame<g ref="char:cmbAbbrStroke">̄</g>.</hi>
+               </l>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>¶ The collect. <hi>Oremus.</hi> Let vs praye.</head>
+               <l>
+                  <hi>DEus a quo</hi> all grace doth procede,</l>
+               <l>
+                  <hi>Sancta deſideria</hi> lord geue vs we haue nede,</l>
+               <pb facs="tcp:173232:8"/>
+               <l>
+                  <hi>Recta concilia</hi> we ought here to elect</l>
+               <l>
+                  <hi>Iuſta ſunt opera</hi> whiche with thee takes effect,</l>
+               <l>
+                  <hi>Da ſeruis tuis</hi> in this Ile of Englande,</l>
+               <l>
+                  <hi>illam</hi> which is wicked by grace to withſtande,</l>
+               <l>
+                  <hi>Quam mundus</hi> loueth moſt, that do we enſue</l>
+               <l>
+                  <hi>Dare</hi> our ſoules for it we force not, this is true</l>
+               <l>
+                  <hi>Non poteſt</hi> whiche loueth this worlde, leaue hys couetouſnes,</l>
+               <l>
+                  <hi>Pacem</hi> ſith he ſeketh to haue in his wicked riches</l>
+               <l>
+                  <hi>Vt et,</hi> in this worlde we maye liue pleaſantly,</l>
+               <l>
+                  <hi>Corda noſtra</hi> that to winne wholly we applie.</l>
+               <l>
+                  <hi>Mandatis tuis</hi> alas lord men ſhould haue a loue,</l>
+               <l>
+                  <hi>Dedita</hi> to y<hi rend="sup">e</hi> fleſh are they, as luſt doth the<g ref="char:cmbAbbrStroke">̄</g> moue.</l>
+               <l>
+                  <hi>Et hoſtiu<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> their ſore aſſalts though thei mighty be,</l>
+               <l>
+                  <hi>Sublata</hi> by thy grace lord, moſt happy then are we</l>
+               <l>
+                  <hi>Formidine</hi> of which enemies being ſo put away,</l>
+               <l>
+                  <hi>Tempora ſint</hi> after ſpent, as beſt pleaſe thee may.</l>
+               <l>
+                  <hi>Tua protectione</hi> then we doubt not, but certainly</l>
+               <l>
+                  <hi>Tranquilla</hi> we ſhall haue here, and eke eternally,</l>
+               <l>
+                  <hi>Per Chriſtum</hi> procured for vs it is playne,</l>
+               <l>
+                  <hi>Dominu<g ref="char:cmbAbbrStroke">̄</g> noſtrum</hi> geue vs grace his peace to ob<g ref="char:EOLhyphen"/>taine. Amen.</l>
+            </div>
+            <div type="paraphrastic_poem">
+               <head>¶ Another collect for the clergie and all other people.</head>
+               <l>
+                  <hi>OMnipotens</hi> and vndeuided trinitie</l>
+               <l>
+                  <hi>Sempiterne deus</hi> al honour be to thee,</l>
+               <l>
+                  <hi>Qui facis</hi> that by reaſon can not be thought,</l>
+               <l>
+                  <hi>Mirabilia magna</hi> for vs thou haſt wrought,</l>
+               <l>
+                  <hi>Solus</hi> of theſe workes thou arte worker we ſe</l>
+               <l>
+                  <hi>Pretende</hi> ſo thy grace now of thy benignitie,</l>
+               <l>
+                  <hi>Super famulos tuos</hi> (for great is the nede)</l>
+               <pb facs="tcp:173232:9"/>
+               <l>
+                  <hi>pontifices</hi> to excite therby thy flocke well to fede</l>
+               <l>
+                  <hi>et ſuper cunctas</hi> perſons of all degrees,</l>
+               <l>
+                  <hi>congregationes</hi> hauing as all men ſees</l>
+               <l>
+                  <hi>illis commiſſas</hi> with errour ſpotted ſore</l>
+               <l>
+                  <hi>ſpiritum gratiae</hi> lord ſende them all therfore</l>
+               <l>
+                  <hi>ſalutaris</hi> heauenly to haue the poſſeſſion</l>
+               <l>
+                  <hi>et vt</hi> thou wilt kepe the<g ref="char:cmbAbbrStroke">̄</g> fro<g ref="char:cmbAbbrStroke">̄</g> thy lawes tra<g ref="char:cmbAbbrStroke">̄</g>greſſion</l>
+               <l>
+                  <hi>in veritate</hi> of fayth alſo and errours to deſtroye,</l>
+               <l>
+                  <hi>tibi complacient</hi> then and after heauen enioye,</l>
+               <l>
+                  <hi>perpetuum eis</hi> thy glory ſhine ſhall</l>
+               <l>
+                  <hi>rorem</hi> of thy grace, if thou on them let fall,</l>
+               <l>
+                  <hi>benedictionis</hi> in heauen that we maye be aſſurde,</l>
+               <l>
+                  <hi>infunde</hi> out thy grace, which for vs is procurde,</l>
+               <l>
+                  <hi>per Chriſtum</hi> of his great benignitie,</l>
+               <l>
+                  <hi>dominum noſtru<g ref="char:cmbAbbrStroke">̄</g>
+                  </hi> therfore euer praiſed mought be. Amen.</l>
+            </div>
+            <div type="poem">
+               <head>¶ The Authour.</head>
+               <l>Thus ende I thys myne A B C,</l>
+               <l>Requiring all that ſhall it rede</l>
+               <l>Sith thus it is applied by me,</l>
+               <l>Well to accept my wyll and dede.</l>
+               <l>For as experience doth lede,</l>
+               <l>I to the time doth it applie</l>
+               <l>Synne reprouing which ſtyll doth brede</l>
+               <l>Therfore for grace let vs all crye.</l>
+               <trailer>Finis</trailer>
+               <byline>ꝙ Myles Huggard.</byline>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="colophon">
+            <p>Imprinted at London, by Robert Ca<g ref="char:EOLhyphen"/>ly, within the precinct of the late deſſolued houſe of the graye Freers, now conuerted to an Hoſpitall, called Chriſtes Hoſpitall.</p>
+            <pb facs="tcp:173232:9"/>
+         </div>
+      </back>
+   </text>
+</TEI>
